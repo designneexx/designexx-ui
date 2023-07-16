@@ -1,21 +1,21 @@
 {
   "name": "@designexx-ui/work-experience-card",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "Компонент карточки с описанием опыта работы в компании",
   "author": "designneexx <webmasterondesign@gmail.com>",
   "homepage": "https://github.com/designneexx/designexx-ui#readme",
   "license": "ISC",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "dist/index.d.ts", 
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "node ./__tests__/WorkExperienceCard.test.js",
     "build": "rollup -c=../../../rollup.config.js"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.7.1",
-    "@chakra-ui/icons": "^2.0.19"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
