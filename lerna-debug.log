@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '7.1.1',
+0 silly argv   '$0': '..\\..\\..\\..\\AppData\\Local\\Volta\\tools\\image\\packages\\lerna\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'WorkExperienceCard\\'
+0 silly argv }
+1 notice cli v7.1.1
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/portfolio/*"]
+3 verbose rootPath C:\Users\user\Desktop\projects\Pdfantasyxx\designexx-ui
+4 info versioning independent
+5 error TypeError: Cannot read properties of undefined (reading 'toLocaleLowerCase')
+5 error     at camelCase (C:\Users\user\AppData\Local\Volta\tools\image\packages\lerna\node_modules\lerna\node_modules\yargs-parser\build\index.cjs:8:15)
+5 error     at CreateCommand.initialize (C:\Users\user\AppData\Local\Volta\tools\image\packages\lerna\node_modules\lerna\node_modules\@lerna\create\dist\command.js:3986:60)
