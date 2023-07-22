@@ -10,12 +10,14 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "node ./__tests__/WorkExperienceCard.test.js",
-    "build": "rollup -c=../../../rollup.config.js"
+    "build": "rollup -c=rollup.config.mjs"
   },
+  "files": ["README.md", "package.json", "dist"],
   "peerDependencies": {
     "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "gitHead": "dde43bcea347e7407c425ca6af0d32cd49b5372c"
 }
