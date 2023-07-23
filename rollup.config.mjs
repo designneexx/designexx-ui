@@ -1,6 +1,6 @@
 import typescript from 'rollup-plugin-typescript2';
 import commonjs from '@rollup/plugin-commonjs';
-import resolve from "@rollup/plugin-node-resolve";
+import resolve from '@rollup/plugin-node-resolve';
 import dts from 'rollup-plugin-dts';
 import css from 'rollup-plugin-import-css';
 import externals from 'rollup-plugin-node-externals';
@@ -23,7 +23,8 @@ export default [
         sourcemap: true,
       },
     ],
-    plugins: [externals(), resolve(), commonjs(), typescript({ useTsconfigDeclarationDir: true }), image(), css()],
+    plugins: [externals(), resolve(), commonjs(), typescript({ useTsconfigDeclarationDir: true }), image(), css()
+    ],
   },
   {
     input: ['index.ts'],
