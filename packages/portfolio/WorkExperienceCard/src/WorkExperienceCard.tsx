@@ -88,7 +88,7 @@ export function WorkExperienceCard({
               size="xs"
               textTransform="uppercase"
             >
-              Контактная информация
+              <span>Контактная информация</span>
             </Heading>
             <Text
               fontStyle={getItalicFont(location)}

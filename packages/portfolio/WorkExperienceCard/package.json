@@ -10,6 +10,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "node ./__tests__/WorkExperienceCard.test.js",
+    "cz": "git-cz",
     "build": "rollup -c=rollup.config.mjs"
   },
   "files": [
@@ -17,6 +18,9 @@
     "package.json",
     "dist"
   ],
+  "commitizen": {
+    "path": "cz-conventional-changelog"
+  },
   "peerDependencies": {
     "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.7.1",
